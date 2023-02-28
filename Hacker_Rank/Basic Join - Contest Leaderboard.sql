@@ -6,12 +6,12 @@
 */
 
 -- create table -- 
-CREATE OR REPLACE TABLE Hackers_3 (
+CREATE OR REPLACE TABLE Hackers (
     hacker_id integer,
     name string
     );
 
-CREATE OR REPLACE TABLE Submissions_2 (
+CREATE OR REPLACE TABLE Submissions (
     submission_id integer,
     hacker_id integer,
     challenge_id integer,
